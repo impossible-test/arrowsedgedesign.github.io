@@ -381,3 +381,8 @@ font-family: 'Oswald', sans-serif; */
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+.photo-head {
+    font-family: 'Oswald', sans-serif;
+    font-size: 8vw;
+    text-align: center;
