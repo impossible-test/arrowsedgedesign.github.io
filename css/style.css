@@ -140,7 +140,7 @@ body {
 
 .little-footer-quote-head {
     margin-left: 1%;
-    margin-top: 5%;
+    margin-top: 8%;
     color: white;
     font-family: "Oswald", sans-serif;
     color: whitesmoke;
@@ -169,11 +169,11 @@ body {
     font-family: 'Quattrocento', serif;
     font-size: 2.5vw;
     text-align: center;
-    margin-left: 14%;
+    margin-left: 11%;
 }
 
 .button-mover{
-    margin-left: 20%;
+    margin-left: 10%;
 }
 /* End of footer style */
 
