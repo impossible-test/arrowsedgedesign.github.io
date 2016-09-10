@@ -167,13 +167,13 @@ body {
 .little-footer-link {
     color: white;
     font-family: 'Quattrocento', serif;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     margin-left: 14%;
 }
 
 .button-mover{
-    margin-left: 27%;
+    margin-left: 20%;
 }
 /* End of footer style */
 
