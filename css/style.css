@@ -54,8 +54,21 @@ body {
     background-color: antiquewhite;
     overflow-y: scroll;
     overflow-x: hidden;
-    margin-bottom: 250px;
+
 }
+
+@media(max-width:1600px){
+  body {
+    margin-bottom: 250px;
+  }
+}
+
+@media(max-width:768px){
+  body {
+    margin-bottom: 175px;
+  }
+}
+
 
 .footer {
   position: absolute;
@@ -72,13 +85,35 @@ body {
   background-repeat: repeat-x;
   border-color: #252525;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
-  margin-top: 25px;
+}
+
+.little-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 150px;
+  background-color: #1b1b1b;
+  background-image: -moz-linear-gradient(top, #222222, #111111);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222222), to(#111111));
+  background-image: -webkit-linear-gradient(top, #222222, #111111);
+  background-image: -o-linear-gradient(top, #222222, #111111);
+  background-image: linear-gradient(to bottom, #222222, #111111);
+  background-repeat: repeat-x;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
 }
 
 .footer-logo {
     float: left;
     margin-left: 1%;
     margin-top: 1%;
+}
+
+.little-footer-logo {
+    float: left;
+    margin-left: 1%;
+    margin-top: 5%;
 }
 
 .footer-quote {
@@ -88,6 +123,12 @@ body {
     border-right: solid 1px whitesmoke;
 }
 
+.footer-quote-2 {
+    margin-left: 1%;
+    margin-top: 2%;
+    color: white;
+}
+
 .footer-quote-head {
     margin-left: 1%;
     margin-top: 2%;
@@ -95,6 +136,17 @@ body {
     font-family: "Oswald", sans-serif;
     color: whitesmoke;
     font-size: 2vw;
+}
+
+.little-footer-quote-head {
+    margin-left: 1%;
+    margin-top: 5%;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    color: whitesmoke;
+    font-size: 3.5vw;
+    text-align: center;
+    margin-bottom: -10px;
 }
 
 .footer-quote-text {
@@ -110,9 +162,19 @@ body {
     color: white;
     font-family: 'Quattrocento', serif;
     font-size: 1.3vw;
-
 }
 
+.little-footer-link {
+    color: white;
+    font-family: 'Quattrocento', serif;
+    font-size: 3vw;
+    text-align: center;
+    margin-left: 14%;
+}
+
+.button-mover{
+    margin-left: 27%;
+}
 /* End of footer style */
 
 /* Style for the carousel */
